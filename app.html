@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+	 <head>
+	<title>XSCOUT</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="img/ava.png">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<div class="wrapper dapp">
+			<div class="top-app">
+				<div class="top-app__container _container">
+					<div class="top-app__block">
+						<div class="top-app__logo"><img src="img/logo.svg" alt></div>
+						<div class="top-app__searth"> <img src="img/sea.svg" alt><input type="text" id="username" name="username" placeholder="Search @handle or link"></div>
+						<button class="top-app__connect"><img src="img/connect.png" alt></button>
+					</div>
+				</div>
+			</div>
+			<main class="page">
+				<div class="app">
+					<div class="app__ab"><img src="img/ab.png" alt></div>
+					<div class="app__abg"><img src="img/abg.png" alt></div>
+					<div class="app__container _container">
+						<div class="app__sellect">
+							<div class="custom-select _timeframe">
+								<div class="custom-select__trigger">Timeframe </div>
+								<div class="custom-select__options">
+									<div class="custom-select__option" data-value="option1">USA</div>
+									<div class="custom-select__option" data-value="option2">Germany</div>
+									<div class="custom-select__option" data-value="option3">France</div>
+								</div>
+							</div>
+						</div>
+						<div class="app__top">
+							<div class="app__flovwers">
+								<p><strong id="followersCount">Followers count:</strong> <span></span></p>
+
+							</div>
+							<div class="app__sellect">
+								<div class="custom-select">
+									<div class="custom-select__trigger _handle">@handle </div>
+									<div class="custom-select__options">
+										<div class="custom-select__option" data-value="option1">USA</div>
+										<div class="custom-select__option" data-value="option2">Germany</div>
+										<div class="custom-select__option" data-value="option3">France</div>
+									</div>
+								</div>
+							</div>
+							<div class="app__fake"><img src="img/fake1.png" alt><img src="img/fake2.png" alt></div>
+							<div class="app__link"><a href="#" target="_blank"><img src="img/link.png" alt></a></div>
+							<div class="app__arrows">
+								<div class="_left"><img src="img/arl.png" alt></div>
+								<div class="_right"><img src="img/arl.png" alt></div>
+							</div>
+						</div>
+						<div class="app__slider _swiper">
+							<div class="app__slide slide-one">
+								<div class="slide-one__top">
+									<div class="slide-one__profile">
+										<div class="slide-one__img">
+											<p><strong></strong> 
+												<img id="avatar" src=""  alt="User Avatar">
+											</p>
+										</div>
+										<div class="slide-one__info">
+											<p><strong></strong> <span id="UserName"></span></p>
+											<p><strong>ID:</strong> <span id="userId"></span></p>
+
+											<p><strong></strong> <span id="influencersCount"></span></p>
+											<p><strong></strong> <span id="projectsCount"></span></p>
+											<p><strong></strong> <span id="ventureCapitalsCount"></span></p>
+
+										</div>
+										<style>#UserName {
+											font-size: 38px; /* Увеличиваем размер шрифта */
+											margin-top: 10px;
+											font-weight: bold; /* Делаем жирным */
+										}
+										</style>
+									</div>
+									<div class="slide-one__score">
+										<div class="slide-one__label">score</div>
+										<div class="slide-one__cifres"><p><strong></strong> <span id="score"></span></p></div>
+										<div class="slide-one__line"><span></span></div>
+										<div class="slide-one__el">
+											<span>0</span>
+											<span>100</span>
+											<span>500</span>
+											<span>1000</span>
+											<span>2000</span>
+										</div>
+										<div class="slide-one__level">
+											<div class="slide-one__label">Level</div>
+											<div class="slide-one__name-level">
+												<span>5</span>Supreme
+											</div>
+										</div>
+									</div>
+									<div class="slide-one__recent">
+										<div class="slide-one__label">RECENT FOLLOWS</div>
+										<div class="slide-one__block-folovers">
+
+
+										</div>
+										<div class="slide-one__see">See All</div>
+									</div>
+								</div>
+								<div class="slide-one__bottom slide-one-bottom">
+									<div class="slide-one-bottom__item">
+										<div class="score__block ">
+											<span class="_svett"></span>
+											<span>Trust score:</span>
+											<div class="score__wp">
+												<span id = "Trust_score"></span>
+												<p>Trust Score</p>
+											</div>
+										</div>
+									</div>
+									<div class="slide-one-bottom__wp">
+										<div class="slide-one-bottom__label">top FOLLOWerS</div>
+										<div class="slide-one-bottom__top">
+											<div class="slide-one-bottom__block">
+												<div class="slide-one-bottom__tp">
+													<span>Influencers</span>
+													<p id="Influencers_count2"></p>
+												</div>
+												<div class="slide-one-bottom__items">
+													<div class="slide-one-bottom__img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/X_logo.jpg/800px-X_logo.jpg" alt style="border-radius: 50%; width: 50px; height: 50px; object-fit: cover;"></div>
+													<div class="slide-one-bottom__txt">
+														<span>@grace_wilson65</span>
+														<p>Grace Wilson</p>
+													</div>
+													<div class="slide-one-bottom__cifres">1000</div>
+												</div>
+												<div class="slide-one-bottom__items">
+													<div class="slide-one-bottom__img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/X_logo.jpg/800px-X_logo.jpg" alt style="border-radius: 50%; width: 50px; height: 50px; object-fit: cover;"></div>
+													<div class="slide-one-bottom__txt">
+														<span>@text</span>
+														<p>text</p>
+													</div>
+													<div class="slide-one-bottom__cifres">1000</div>
+												</div>
+												<div class="slide-one-bottom__items">
+													<div class="slide-one-bottom__img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/X_logo.jpg/800px-X_logo.jpg" alt style="border-radius: 50%; width: 50px; height: 50px; object-fit: cover;"></div>
+													<div class="slide-one-bottom__txt">
+														<span>@text</span>
+														<p>text</p>
+													</div>
+													<div class="slide-one-bottom__cifres">1000</div>
+												</div>
+												<div class="slide-one-bottom__items">
+													<div class="slide-one-bottom__img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/X_logo.jpg/800px-X_logo.jpg" alt style="border-radius: 50%; width: 50px; height: 50px; object-fit: cover;"></div>
+													<div class="slide-one-bottom__txt">
+														<span>@text</span>
+														<p>text</p>
+													</div>
+													<div class="slide-one-bottom__cifres">1000</div>
+												</div>
+												<div class="slide-one-bottom__see">See All</div>
+											</div>
+											<div class="slide-one-bottom__block">
+												<div class="slide-one-bottom__tp">
+													<span>Projects:</span>
+													<p id="projects_count"></p>
+												</div>
+												<div class="slide-one-bottom__items">
+													<div class="slide-one-bottom__img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/X_logo.jpg/800px-X_logo.jpg" alt style="border-radius: 50%; width: 50px; height: 50px; object-fit: cover;"></div>
+													<div class="slide-one-bottom__txt">
+														<span>@jack.clark30</span>
+														<p>creativeMind</p>
+													</div>
+													<div class="slide-one-bottom__cifres">1000</div>
+												</div>
+												<div class="slide-one-bottom__items">
+													<div class="slide-one-bottom__img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/X_logo.jpg/800px-X_logo.jpg" alt style="border-radius: 50%; width: 50px; height: 50px; object-fit: cover;"></div>
+													<div class="slide-one-bottom__txt">
+														<span>@text</span>
+														<p>text</p>
+													</div>
+													<div class="slide-one-bottom__cifres">1000</div>
+												</div>
+												<div class="slide-one-bottom__items">
+													<div class="slide-one-bottom__img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/X_logo.jpg/800px-X_logo.jpg" alt style="border-radius: 50%; width: 50px; height: 50px; object-fit: cover;"></div>
+													<div class="slide-one-bottom__txt">
+														<span>@text</span>
+														<p>text</p>
+													</div>
+													<div class="slide-one-bottom__cifres">1000</div>
+												</div>
+												<div class="slide-one-bottom__items">
+													<div class="slide-one-bottom__img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/X_logo.jpg/800px-X_logo.jpg" alt style="border-radius: 50%; width: 50px; height: 50px; object-fit: cover;"></div>
+													<div class="slide-one-bottom__txt">
+														<span>@text</span>
+														<p>text</p>
+													</div>
+													<div class="slide-one-bottom__cifres">1000</div>
+												</div>
+												<div class="slide-one-bottom__see">See All</div>
+											</div>
+											<div class="slide-one-bottom__block">
+												<div class="slide-one-bottom__tp">
+													<span>Capital</span>
+													<p id="capital_count"></p>
+												</div>
+												<div class="slide-one-bottom__items">
+													<div class="slide-one-bottom__img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/X_logo.jpg/800px-X_logo.jpg" alt style="border-radius: 50%; width: 50px; height: 50px; object-fit: cover;"></div>
+													<div class="slide-one-bottom__txt">
+														<span>@phantom_wave_36</span>
+														<p>electric_wolf</p>
+													</div>
+													<div class="slide-one-bottom__cifres">1000</div>
+												</div>
+												<div class="slide-one-bottom__items">
+													<div class="slide-one-bottom__img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/X_logo.jpg/800px-X_logo.jpg" alt style="border-radius: 50%; width: 50px; height: 50px; object-fit: cover;"></div>
+													<div class="slide-one-bottom__txt">
+														<span>@text</span>
+														<p>text</p>
+													</div>
+													<div class="slide-one-bottom__cifres">1000</div>
+												</div>
+												<div class="slide-one-bottom__items">
+													<div class="slide-one-bottom__img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/X_logo.jpg/800px-X_logo.jpg" alt style="border-radius: 50%; width: 50px; height: 50px; object-fit: cover;"></div>
+													<div class="slide-one-bottom__txt">
+														<span>@text</span>
+														<p>text</p>
+													</div>
+													<div class="slide-one-bottom__cifres">1000</div>
+												</div>
+												<div class="slide-one-bottom__items">
+													<div class="slide-one-bottom__img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/X_logo.jpg/800px-X_logo.jpg" alt style="border-radius: 50%; width: 50px; height: 50px; object-fit: cover;"></div>
+													<div class="slide-one-bottom__txt">
+														<span>@text</span>
+														<p>text</p>
+													</div>
+													<div class="slide-one-bottom__cifres">1000</div>
+												</div>
+												<div class="slide-one-bottom__see">See All</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+	<div class="footer__container _container">
+
+	</div>
+</footer>
+		</div>
+		<div class="popup popup_popup">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+		</div>
+	</div>
+</div>
+<div class="popup popup_massagename-message">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+		</div>
+	</div>
+</div>
+<div class="popup popup_video">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close popup__close_video"></div>
+			<div class="popup__video _video"></div>
+		</div>
+	</div>
+</div>
+
+		<!-- Swiper -->
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+<!-- <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script> -->
+<script src="js/vendors.min.js?v1"></script>
+<script src="js/app.min.js?v1"></script>
+<script src="js/app.js"></script>
+<script src="js/retake.js"></script>
+
+	</body>
+</html>
